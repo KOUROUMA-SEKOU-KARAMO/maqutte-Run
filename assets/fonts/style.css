@@ -209,4 +209,33 @@ footer{
    box-shadow:0  rgb(109, 61, 61);
 }
 
+   /* *************    Responsive de la maqutte ****  */
+@media screen and (max-width: 700px){
+
+    .container-header{
+        display: block;
+     
+        
+    }
+    .header-text{
+        padding:30px ;
+    }
+    .container-main-top{
+        display: block;
+        padding:20px 0 ;
+    }
+    .container-top-img{
+        display: none;
+    }
+    .container-main-bottom{
+        display: block;
+    }
+    .container-main-bottom{
+        display: block;
+    }
+    .container-bottom-img{
+        display: none;
+    }
+}
+
 
